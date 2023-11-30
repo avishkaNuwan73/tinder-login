@@ -1,0 +1,134 @@
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline-style: none;
+  font-size: 1rem;
+}
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  border: 2px solid rgb(221, 39, 21);
+}
+input[type="file"] {
+}
+.container > form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+  justify-content: space-evenly;
+  grid-gap: 20px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+.nav > img {
+  height: 30px;
+}
+
+.header {
+  margin-top: 20px;
+}
+.header > h1 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.dob__inputs > input::-webkit-outer-spin-button,
+.dob__inputs > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.first__name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.dob {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.dob__inputs > input {
+  margin-right: 10px;
+  width: 50px;
+}
+.gender {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.gender > label {
+  margin-bottom: 10px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.checkbox > label {
+  padding-bottom: 0;
+  margin-left: 10px;
+}
+.radio {
+  margin-bottom: 10px;
+}
+.radio > label {
+  border: 1px solid;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.show__me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.show__me > label {
+  margin-bottom: 10px;
+}
+.img__container {
+  margin-top: 10px;
+  height: 100%;
+}
+.img__container > img {
+  width: 100%;
+}
+input[type="submit"] {
+  width: 100%;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+}
+
+.about__me {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  margin-top: 50px;
+  display: flex;
+}

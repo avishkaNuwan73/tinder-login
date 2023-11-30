@@ -1,0 +1,38 @@
+.dashboard__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 2vh;
+}
+.dashboard__container > section {
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  height: 650px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.swipe {
+  position: absolute;
+}
+.dashboard__nav__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.dashboard__nav__container > img {
+  height: 30px;
+}
+.dashboard__nav__container > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
